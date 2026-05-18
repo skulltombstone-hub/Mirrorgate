@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>MIRRORGATE</title>
 
   <link rel="stylesheet" href="style.css">
@@ -10,141 +12,287 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <div class="background-glow"></div>
+<div class="noise"></div>
 
-  <header>
+<div class="background-grid"></div>
 
-    <nav>
-      <div class="logo">
-        MIRRORGATE
-      </div>
+<div class="background-glow"></div>
 
-      <div class="nav-links">
-        <a href="#books">Books</a>
-        <a href="#about">About</a>
-      </div>
-    </nav>
+<header>
 
-    <div class="hero-content">
+  <nav>
 
-      <h1>
-        DIFFERENT WORLDS.<br>
-        SAME UNIVERSE.
-      </h1>
+    <div class="logo">
+      MIRRORGATE
+    </div>
 
-      <p>
-        Science fiction, internet horror, emotional drama,
-        surreal comedy and disturbing mysteries connected
-        through one fractured continuity.
-      </p>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#shared">Universe</a>
+      <a href="#about">About</a>
+    </div>
 
-      <a class="hero-button" href="#books">
-        Explore The Archive
+  </nav>
+
+  <div class="hero">
+
+    <div class="hero-badge">
+      INTERCONNECTED MULTIMEDIA FICTION PROJECT
+    </div>
+
+    <h1>
+      DIFFERENT STORIES.<br>
+      SAME FRACTURED REALITY.
+    </h1>
+
+    <p>
+      MIRRORGATE is a multimedia fictional universe mixing emotional science fiction,
+      psychological horror, internet mysteries, surreal comedy and experimental storytelling.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#shared" class="primary-button">
+        Explore Universe
+      </a>
+
+      <a href="#projects" class="secondary-button">
+        Browse Archive
       </a>
 
     </div>
 
-  </header>
+  </div>
 
-  <section class="quote-section">
+</header>
+
+<section class="shared-section" id="shared">
+
+  <div class="section-top">
+
+    <span>MAIN CONTINUITY</span>
+
+    <h2>
+      THE MIRRORGATE UNIVERSE
+    </h2>
 
     <p>
-      “Every story leaves a scar somewhere in the universe.”
+      A shared continuity where stories of completely different genres coexist through emotional anomalies,
+      distorted realities and interconnected events.
     </p>
 
-  </section>
+  </div>
 
-  <section class="books-section" id="books">
+  <div class="shared-grid">
 
-    <h2>FEATURED STORIES</h2>
+    <div class="shared-box">
+      <h3>Psychological Horror</h3>
+      <p>
+        Distorted minds, urban paranoia and emotional collapse.
+      </p>
+    </div>
 
-    <div class="books">
+    <div class="shared-box">
+      <h3>Emotional Sci-Fi</h3>
+      <p>
+        Human connection, loneliness and futuristic cities.
+      </p>
+    </div>
 
-      <div class="book-card">
+    <div class="shared-box">
+      <h3>Internet Mysteries</h3>
+      <p>
+        Glitches, archives, lost media and strange digital phenomena.
+      </p>
+    </div>
 
-        <img src="./images/jeff2016.png" alt="Jeff 2016 Cover">
+    <div class="shared-box">
+      <h3>Surreal Drama</h3>
+      <p>
+        Personal stories connected through emotional instability.
+      </p>
+    </div>
 
-        <div class="card-content">
+  </div>
 
-          <h3>Jeff 2016</h3>
+</section>
 
-          <p>
-            A reinterpretation of the classic Jeff The Killer creepypasta,
-            blending internet culture, psychological horror and fragmented memories.
-          </p>
+<section class="projects-section" id="projects">
 
-          <a href="#">
-            Coming Soon
-          </a>
+  <div class="section-top">
 
-        </div>
+    <span>PROJECT ARCHIVE</span>
 
+    <h2>CONNECTED STORIES</h2>
+
+    <p>
+      Stories directly connected to the MIRRORGATE continuity.
+    </p>
+
+  </div>
+
+  <div class="cards">
+
+    <!-- JEFF -->
+
+    <div class="project-card featured-card">
+
+      <div class="card-status active">
+        PRIMARY ACTIVE PROJECT
       </div>
 
-      <div class="book-card">
+      <img src="./images/jeff2016.png">
 
-        <img src="./images/creepypastacollect.png" alt="Creepypasta Collectibles Cover">
+      <div class="card-info">
 
-        <div class="card-content">
-
-          <h3>Creepypasta Collectibles</h3>
-
-          <p>
-            A terrifying collection of iconic creepypastas
-            connected through the mysterious MIRRORGATE universe.
-          </p>
-
-          <a href="https://go.hotmart.com/H105876892R?dp=1" target="_blank">
-            Read Now
-          </a>
-
+        <div class="genre">
+          Psychological Horror
         </div>
+
+        <h3>JEFF 2016</h3>
+
+        <p>
+          A tragic reinterpretation of an iconic internet legend,
+          exploring isolation, paranoia and digital decay.
+        </p>
+
+        <a href="./projects/jeff2016.html">
+          Enter Archive
+        </a>
 
       </div>
 
     </div>
 
-  </section>
+    <!-- OVERHEARD -->
 
-  <section class="about-section" id="about">
+    <div class="project-card">
 
-    <h2>ABOUT THE CREATOR</h2>
+      <div class="card-status dev">
+        DEVELOPMENT ARCHIVE
+      </div>
 
-    <div class="about-box">
+      <img src="./images/overheard.png">
 
-      <p>
-        My name is <strong>Miguel C. Dias</strong>, a 14-year-old Brazilian creator,
-        writer and multimedia artist behind the MIRRORGATE universe.
-      </p>
+      <div class="card-info">
 
-      <p>
-        Before becoming an author, I worked on YouTube projects,
-        graphic design, video editing, game development concepts
-        and experimental internet horror storytelling.
-      </p>
+        <div class="genre">
+          Emotional Sci-Fi Drama
+        </div>
 
-      <p>
-        MIRRORGATE was created as a shared universe where completely
-        different stories and tones coexist — from emotional science fiction
-        and surreal comedy to disturbing psychological horror.
-      </p>
+        <h3>OVERHEARD</h3>
+
+        <p>
+          A story about emotional overload,
+          anxiety and the unbearable noise inside human minds.
+        </p>
+
+        <a href="./projects/overheard.html">
+          View Archive
+        </a>
+
+      </div>
 
     </div>
 
-  </section>
+  </div>
 
-  <footer>
+</section>
+
+<section class="external-section">
+
+  <div class="section-top">
+
+    <span>EXTERNAL STORIES</span>
+
+    <h2>SEPARATE PROJECTS</h2>
 
     <p>
-      © 2026 Miguel C. Dias — Creator of MIRRORGATE
+      Independent books and collections not directly connected
+      to the MIRRORGATE continuity.
     </p>
 
-  </footer>
+  </div>
+
+  <div class="cards">
+
+    <div class="project-card">
+
+      <div class="card-status release">
+        AVAILABLE NOW
+      </div>
+
+      <img src="./images/creepypastacollect.png">
+
+      <div class="card-info">
+
+        <div class="genre">
+          Horror Collection
+        </div>
+
+        <h3>CREEPYPASTA COLLECTIBLES</h3>
+
+        <p>
+          A collection of iconic internet horror stories adapted for modern readers.
+        </p>
+
+        <a href="./projects/collectibles.html">
+          Open Project
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="about-section" id="about">
+
+  <div class="section-top">
+
+    <span>CREATOR FILE</span>
+
+    <h2>ABOUT MIGUEL</h2>
+
+  </div>
+
+  <div class="about-box">
+
+    <p>
+      My name is <strong>Miguel C. Dias</strong>, a 14-year-old Brazilian creator
+      working with books, visual design, editing, storytelling and multimedia fiction.
+    </p>
+
+    <p>
+      Before MIRRORGATE, I created YouTube projects, digital art,
+      experimental horror concepts and game development ideas.
+    </p>
+
+    <p>
+      MIRRORGATE was created as a fictional universe where stories with completely
+      different tones coexist together — from emotional science fiction
+      to disturbing psychological horror.
+    </p>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <p>
+    © 2026 Miguel C. Dias — MIRRORGATE
+  </p>
+
+</footer>
 
 </body>
 </html>
