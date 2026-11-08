@@ -544,3 +544,42 @@ footer{
     }
 
 }
+
+/* HOTMART PURCHASE BUTTON */
+
+.purchase-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.purchase-button a {
+    display: inline-block;
+    max-width: 100%;
+    line-height: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.purchase-button a:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+.purchase-button img {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+@media(max-width: 600px) {
+
+    .purchase-button {
+        justify-content: center;
+    }
+
+}
