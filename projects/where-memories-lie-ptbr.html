@@ -202,56 +202,29 @@ Esta edição é uma prévia digital em português brasileiro.
 <p>Os 3 Primeiros Capítulos</p>
 </div>
 
-<div class="meta-box">
-<h3>Plataforma</h3>
-<p>Hotmart</p>
-</div>
-
-</div>
-
 <div class="purchase-button">
 
-<script type="text/javascript">
-  function importHotmart(){
+  <script type="text/javascript">
+    function importHotmart(){ 
+      var imported = document.createElement('script'); 
+      imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
+      document.head.appendChild(imported); 
 
-    var imported = document.createElement('script');
+      var link = document.createElement('link'); 
+      link.rel = 'stylesheet'; 
+      link.type = 'text/css'; 
+      link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
+      document.head.appendChild(link);
+    } 
 
-    imported.src = 'https://static.hotmart.com/checkout/widget.min.js';
+    importHotmart(); 
+  </script>
 
-    document.head.appendChild(imported);
+  <a onclick="return false;" href="https://pay.hotmart.com/K108397268V?checkoutMode=2" class="hotmart-fb hotmart__button-checkout">
+    <img src="https://static.hotmart.com/img/btn-buy-green.png">
+  </a>
 
-    var link = document.createElement('link');
-
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css';
-
-    document.head.appendChild(link);
-
-  }
-
-  importHotmart();
-</script>
-
-<a
-  onclick="return false;"
-  href="https://pay.hotmart.com/K108397268V?checkoutMode=2"
-  class="hotmart-fb hotmart__button-checkout"
-  aria-label="Comprar Where Memories LIE pela Hotmart"
->
-  <img
-    src="https://static.hotmart.com/img/btn-buy-green.png"
-    alt="Comprar agora"
-  >
-</a>
-
-<noscript>
-  <p>
-    <a href="https://pay.hotmart.com/K108397268V?checkoutMode=2">
-      Comprar pela Hotmart
-    </a>
-  </p>
-</noscript>
+</div>
 
 </div>
 
